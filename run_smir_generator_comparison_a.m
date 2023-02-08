@@ -13,8 +13,8 @@ K = 2;                              % Oversampling factor
 L = [4 6 8];                        % Room dimensions (x,y,z) in m
 sphLocation = [2 3.2 4];            % Receiver location (x,y,z) in m
 s = [2.37 4.05 4.4];                % Source location(s) (x,y,z) in m
-beta = [1 0.7 0.7 0.5 0.2 1];       % Room reflection coefficients [\beta_x_1 \beta_x_2 \beta_y_1 \beta_y_2 \beta_z_1 \beta_z_2]
-order = -1;                         % Reflection order (-1 is maximum reflection order)
+beta = [0.0 0.0 0.0 0.0 0.0 0.0 ];       % Room reflection coefficients [\beta_x_1 \beta_x_2 \beta_y_1 \beta_y_2 \beta_z_1 \beta_z_2]
+order = 0;                         % Reflection order (-1 is maximum reflection order)
 
 sphRadius = 0.042;                  % Radius of the sphere (m)
 sphType = 'open';                   % Type of sphere (open/rigid)
